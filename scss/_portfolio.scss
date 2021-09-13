@@ -31,6 +31,10 @@ body {
   @include tab {
     //width: 90vw;
   }
+  a {
+    color: $text-color;
+    @include ease;
+  }
   .proj-name {
     text-align: center;
     padding: 1em;
